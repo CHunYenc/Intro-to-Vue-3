@@ -4,6 +4,7 @@
     "editor.defaultFormatter": "octref.vetur"
   },
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
