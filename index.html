@@ -16,9 +16,13 @@
         <div class="product-container">
           <div class="product-image">
             <!-- image goes here -->
+            <img :src="image" />
           </div>
           <div class="product-info">
             <h1>{{ product }}</h1>
+            <a :href="url" target="_blank" rel="noopener noreferrer"
+              >Made By CHunYenc</a
+            >
           </div>
         </div>
       </div>
